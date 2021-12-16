@@ -159,5 +159,39 @@ body {
     background-image: url(img/Arrow.svg);
 }
 
+/* CONTACT */
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 85vh;
+    background-color: #2a93d5;
+}
+
+.contact h2 {
+    text-align: center;
+    font-family: 'Crazy Sixties';
+    font-size: 1.7vw;
+    color: #fff;
+    margin: 2vh;
+}
+
+.contact .contact-icon-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 15vw;
+    margin: auto;
+}
+
+.contact .icon img {
+    height: 6vh;
+    filter: invert(100%) sepia(0%) saturate(4884%) hue-rotate(177deg) brightness(124%) contrast(110%);
+}
+
+.contact .icon img:hover {
+    box-shadow: 0px 6px 30px rgba(255, 255, 255, 0.5);
+    border-radius: 190px;
+}
 
 /* FOOTER */

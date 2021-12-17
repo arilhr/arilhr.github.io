@@ -82,12 +82,13 @@ body {
 
 .navbar .nav-list a {
     text-decoration: none;
+    transition: ease-out 0.2s;
     color: #2a93d5;
 }
 
-.navbar .nav-list a:hover li {
-    /* S */
-    color: #2a93d5;
+.navbar .nav-list a:hover {
+    color: #fff;
+    background-color: #2a93d5;
 }
 
 /* MAIN CONTENT */
@@ -96,6 +97,7 @@ body {
     height: 80vh;
     align-items: center;
     margin: 0 10%;
+    animation: FadeIn 0.5s;
 }
 
 .main .personal-photo {
@@ -140,9 +142,14 @@ body {
     display: flex;
     align-items: center;
     width: 7vw;
+    transition: ease-out 0.3s;
     box-shadow: 5px 5px 0px 0px rgba(55, 202, 236, 0.75);
     -webkit-box-shadow: 5px 5px 0px 0px rgba(55, 202, 236, 0.75);
     -moz-box-shadow: 5px 5px 0px 0px rgba(55, 202, 236, 0.75);
+}
+
+.main .mywork-container a:hover {
+    width: 7.2vw;
 }
 
 .main .mywork-container a p {
@@ -155,10 +162,6 @@ body {
     flex-basis: 25%;
 }
 
-.arrow-icon {
-    background-image: url(img/Arrow.svg);
-}
-
 /* CONTACT */
 .contact {
     display: flex;
@@ -167,6 +170,7 @@ body {
     width: 100vw;
     min-height: 85vh;
     background-color: #2a93d5;
+    animation: FadeIn 0.5s;
 }
 
 .contact h2 {
@@ -195,3 +199,14 @@ body {
 }
 
 /* FOOTER */
+
+/* ANIMATION */
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

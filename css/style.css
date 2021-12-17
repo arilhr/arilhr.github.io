@@ -196,6 +196,7 @@ body {
     font-family: 'Crazy Sixties';
     font-size: 2.5vw;
     text-align: center;
+    animation: FadeIn 0.3s;
 }
 
 .my-work-content-container {
@@ -204,6 +205,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 0 10%;
+    animation: FadeIn 0.3s;
 }
 
 .my-work-content {

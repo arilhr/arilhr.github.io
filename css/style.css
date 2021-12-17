@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@300;400;700&display=swap');
 
 @font-face {
     font-family: 'Crazy Sixties';
@@ -6,16 +7,6 @@
         url('crazy_sixties-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url('opensanscondensed-light-webfont.woff2') format('woff2'),
-        url('opensanscondensed-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 /* 
@@ -27,13 +18,12 @@ COLOR PALLETE:
 
 html,
 body {
-    height: 100%;
+    height: 99vh;
 }
 
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 .navbar {
@@ -197,6 +187,59 @@ body {
     box-shadow: 0px 6px 30px rgba(255, 255, 255, 0.5);
     border-radius: 190px;
 }
+
+.my-work-container {
+    width: 100%;
+}
+
+.my-work-container h2 {
+    font-family: 'Crazy Sixties';
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.my-work-content-container {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10%;
+}
+
+.my-work-content {
+    border: solid 2px #001d26;
+    padding: 3vh;
+    margin: 2vh;
+}
+
+.my-work-content-title {
+    font-family: 'Crazy Sixties';
+    font-size: 2vw;
+    color: #001d26;
+    text-align: center;
+}
+
+.my-work-images {
+    display: flex;
+    padding: 1vh;
+    justify-content: space-evenly;
+}
+
+.my-work-image {
+    flex-basis: 1;
+    padding: 1%;
+}
+
+.my-work-image img {
+    width: 100%;
+}
+
+.my-work-description {
+    font-family: 'Open Sans';
+    font-size: 1vw;
+    text-align: center;
+}
+
 
 /* FOOTER */
 

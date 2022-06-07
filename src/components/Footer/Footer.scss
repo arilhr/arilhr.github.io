@@ -1,0 +1,83 @@
+@import "../../assets/css/ColorPallete.scss";
+
+footer {
+  width: 100%;
+  padding: 24px 0 36px 0;
+  position: fixed;
+  bottom: 0;
+  background-color: $white;
+  border: 1px solid $darkblue;
+  border-width: 2px 0 0 0;
+
+  .container {
+    display: flex;
+
+    .copyright {
+      font-size: 1rem;
+      font-weight: 700;
+      text-decoration: none;
+      color: $darkblue;
+    }
+
+    .social-media {
+      margin-left: auto;
+      display: flex;
+      gap: 20px;
+
+      .footer-link {
+        font-size: 1rem;
+        font-weight: 700;
+        text-decoration: none;
+        color: $darkblue;
+        text-transform: uppercase;
+
+        span {
+          position: relative;
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: $darkblue;
+            transition: 0.3s;
+          }
+        }
+
+        &:hover,
+        &.active {
+          color: $darkblue;
+          span {
+            position: relative;
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: -4px;
+              left: 0;
+              width: 30px;
+              height: 2px;
+              background-color: $darkblue;
+              transition: 0.3s;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    position: unset;
+    .container {
+      flex-direction: column;
+
+      .social-media {
+        margin-left: 0;
+        margin-top: 20px;
+        flex-direction: column;
+      }
+    }
+  }
+}

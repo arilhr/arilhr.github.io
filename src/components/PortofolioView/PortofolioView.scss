@@ -1,0 +1,43 @@
+@import "../../assets/css/ColorPallete.scss";
+
+.porto-view {
+  width: 100%;
+  background-color: $white;
+  min-height: 100vh;
+
+  .title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: $darkblue;
+    text-align: center;
+  }
+
+  .image-list {
+    width: 80%;
+    margin: 2rem auto 0 auto;
+  }
+
+  .description {
+    margin-top: 2rem;
+
+    h5 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: $darkblue;
+    }
+
+    p {
+      font-size: 1.2rem;
+      text-align: justify;
+      line-height: 175%;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .porto-view {
+    .image-list {
+      width: 100%;
+    }
+  }
+}

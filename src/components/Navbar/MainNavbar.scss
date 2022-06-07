@@ -1,0 +1,103 @@
+@import "../../assets/css/ColorPallete.scss";
+
+nav.navbar {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: $white;
+  transition: 0.3s;
+
+  &.scrolled {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  }
+
+  .container {
+    align-items: flex-start;
+  }
+
+  .navbar-brand {
+    color: $darkblue;
+    fill: $darkblue;
+    width: 36px;
+    height: fit-content;
+  }
+
+  .navbar-toggler {
+    border: none !important;
+
+    .navbar-toggler-icon {
+      color: $darkblue;
+    }
+
+    &:focus {
+      border: none !important;
+      box-shadow: none;
+    }
+  }
+
+  .navbar-collapse {
+    .navbar-nav {
+      text-align: center;
+      gap: 0;
+      .nav-link {
+        padding-top: 12px;
+        padding-bottom: 12px;
+      }
+    }
+  }
+
+  .navbar-nav {
+    gap: 2rem;
+    .nav-link {
+      font-size: 1rem;
+      color: $darkblue;
+
+      &:focus {
+        color: $darkblue;
+      }
+
+      span {
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: -4px;
+          left: 0;
+          width: 0px;
+          height: 2px;
+          background-color: $darkblue;
+          transition: 0.3s;
+        }
+      }
+
+      &::first-letter {
+        font-weight: 700;
+        font-size: 1.1rem;
+      }
+
+      &:hover,
+      &.active {
+        color: $darkblue;
+        span {
+          position: relative;
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 30px;
+            height: 2px;
+            background-color: $darkblue;
+            transition: 0.3s;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  nav.navbar {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}

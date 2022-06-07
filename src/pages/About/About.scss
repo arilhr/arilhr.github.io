@@ -1,0 +1,21 @@
+@import "../../assets/css/ColorPallete.scss";
+@import "../../assets/css/GlobalPage.scss";
+
+.about {
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+  background-color: $white;
+  min-height: 100vh;
+
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: $darkblue;
+  }
+
+  ol,
+  ul {
+    padding: 20px;
+    text-transform: uppercase;
+  }
+}

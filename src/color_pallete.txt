@@ -1,0 +1,4 @@
+white: F5F2E7
+blue: 2666CF
+dark blue: 395B64
+darker blue: 2C3333

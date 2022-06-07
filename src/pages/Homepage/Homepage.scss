@@ -1,0 +1,27 @@
+@import "../../assets/css/GlobalPage.scss";
+@import "../../assets/css/ColorPallete.scss";
+
+.homepage {
+  padding-top: $padding-top;
+  padding-bottom: 150px;
+  background: $white;
+  height: 100vh;
+
+  .title {
+    z-index: 1;
+  }
+
+  .container {
+    position: relative;
+    height: 100%;
+    display: flex;
+  }
+
+  .home-photo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-height: 100%;
+    z-index: 0;
+  }
+}

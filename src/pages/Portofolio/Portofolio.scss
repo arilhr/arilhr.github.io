@@ -1,0 +1,54 @@
+@import "../../assets/css/GlobalPage.scss";
+@import "../../assets/css/ColorPallete.scss";
+
+.portofolio-page {
+  margin-top: $padding-top;
+  padding-bottom: 8rem;
+  position: relative;
+  height: min-content;
+
+  .portofolio-group {
+    &:not(:first-child) {
+      margin-top: 4rem;
+    }
+
+    h3 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      text-align: center;
+      text-transform: uppercase;
+      color: $darkblue;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .portofolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .card-item {
+      width: calc(50% - 10px);
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .portofolio-page {
+    padding-bottom: 150px;
+    .portofolio-list {
+      .card-item {
+        width: 100%;
+        height: 150px;
+
+        h5 {
+          font-size: 1rem;
+        }
+
+        p {
+          font-size: 0.6rem;
+        }
+      }
+    }
+  }
+}

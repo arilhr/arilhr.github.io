@@ -6,7 +6,7 @@ import { CardItem } from "../../components/CardItem/CardItem";
 import { PortofolioView } from "../../components/PortofolioView/PortofolioView";
 import { motion } from "framer-motion";
 import "./Portofolio.scss";
-import PortofolioData from "./PortofolioList.json";
+import PortofolioData from "../../assets/data/portofolio.json";
 
 export const Portofolio = () => {
   const [portofolio, setPortofolio] = React.useState([]);
@@ -17,7 +17,8 @@ export const Portofolio = () => {
     "$2b$10$OUqVE7BHUnswxpaqKMXUhOnGtZqVrTzjSPTm4E2eePdKbsSmkxoKi";
 
   React.useEffect(() => {
-    getPortofolioData();
+    setPortofolio(PortofolioData);
+    // getPortofolioData();
   }, []);
 
   const getPortofolioData = () => {

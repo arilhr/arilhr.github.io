@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
 import { motion } from "framer-motion";
 import "./Homepage.scss";
@@ -24,7 +24,7 @@ export const Homepage = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
-          <img src={PersonalPhoto} alt="placeholder" className="home-photo" />
+          <img src={PersonalPhoto} alt="placeholder" className={`home-photo`} />
         </motion.div>
       </Container>
     </div>

@@ -2,13 +2,13 @@
 @import "../../assets/css/ColorPallete.scss";
 
 .homepage {
-  padding-top: $padding-top;
-  padding-bottom: 150px;
+  padding-top: $padding-top;  
   background: $white;
-  height: 100vh;
+  height: 88vh;
 
   .title {
     z-index: 1;
+    padding-bottom: 150px;
   }
 
   .container {
@@ -23,5 +23,13 @@
     bottom: 0;
     max-height: 100%;
     z-index: 0;
+  }
+}
+
+@media (max-width: 990px) {
+  .homepage {
+    .home-photo {
+      width: 80%;
+    }
   }
 }

@@ -48,7 +48,13 @@
   {
     "title": "Binar Car Rental",
     "category": ["Website"],
-    "description": "Website rental mobil. Pada projek ini membuat keseluruhan bagian dari front-end website. Dari login/register, user dapat melihat dan memesan mobil, dan juga Admin dapat melihat data penyewaan dan menambahkan data mobil di list.",
+    "description": "Landing page website for rental car company.",
+    "image": ["https://i.imgur.com/RpqGrWF.jpg"]
+  },
+  {
+    "title": "Thrifty Shop",
+    "category": ["Website"],
+    "description": "E-Commerce website that is intended as a platform for buying and selling used second hand clothes with interactions between sellers and buyers.",
     "image": ["https://i.imgur.com/RpqGrWF.jpg"]
   }
 ]

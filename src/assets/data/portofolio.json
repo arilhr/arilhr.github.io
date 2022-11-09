@@ -1,9 +1,7 @@
 [
   {
     "title": "Volley Head",
-    "category": [
-      "Game"
-    ],
+    "category": ["Game"],
     "description": "Game multiplayer competitive dimana terdapat 2 tim yang memiliki masing-masing 2 pemain. Tim tersebut akan berhadapan satu sama lain dengan permainan bola voli. Tim yang mendapat target poin terlebih dahulu akan memenangkan pertandingan.",
     "image": [
       "https://drive.google.com/uc?export=view&id=1k8dQc-JBXNAPrZ108Ofo6GtEJ1tQ0hcr",
@@ -15,9 +13,7 @@
   },
   {
     "title": "Blue Umbrella Guy",
-    "category": [
-      "Game"
-    ],
+    "category": ["Game"],
     "description": "Game about adventure of a guy who always bring a blue umbrella.",
     "image": [
       "https://drive.google.com/uc?export=view&id=1mEISsVG-cjJ4cgTiKhSodUneGnDkojTm",
@@ -27,9 +23,7 @@
   },
   {
     "title": "Syaiton Slayer",
-    "category": [
-      "Game"
-    ],
+    "category": ["Game"],
     "description": "Game survival, dimana player harus mempertahankan lilin agar tidak tersentuh syaiton, dan harus menjaga diri dengan sarung sakti, agar tidak kesurupan karena terkena syaiton.",
     "image": [
       "https://img.itch.zone/aW1nLzg2MTY3MjkucG5n/315x250%23c/O4wSZy.png"
@@ -37,9 +31,7 @@
   },
   {
     "title": "Escape From Mutant",
-    "category": [
-      "Game"
-    ],
+    "category": ["Game"],
     "description": "Game about a helping a Survivor to escape from Mutant.",
     "image": [
       "https://img.itch.zone/aW1nLzg2MTY4MjYucG5n/315x250%23c/pm%2FiPQ.png"
@@ -47,9 +39,7 @@
   },
   {
     "title": "DxA: Devil x Angel",
-    "category": [
-      "Game"
-    ],
+    "category": ["Game"],
     "description": "Game tells the story of a forbidden love between a devil named Astaroth and an angel named Mareia. They were some of a flawed creation, of which Astaroth was an overly good demon, and Mareia an Angel who was too rebellious and reckless. Because of this they were punished in the afterlife prison which is where they first met. There they intend to get out of the prison and find a way to live freely together. This game is a side scrolling solo player platform game that relies on the focus of the players. This game has 1 control and 2 top and bottom obstacles that must be passed.",
     "image": [
       "https://img.itch.zone/aW1nLzg2Mzk0NzkucG5n/315x250%23c/jxB0D3.png"
@@ -57,9 +47,7 @@
   },
   {
     "title": "Panjat Pinang Chill",
-    "category": [
-      "Game"
-    ],
+    "category": ["Game"],
     "description": "Game multiplayer tentang lomba panjat pinang yang dimainkan oleh 2 orang dan harus mengumpulkan skor lebih besar dari pemain lain",
     "image": [
       "https://img.itch.zone/aW1nLzY4NjE1NzQucG5n/315x250%23c/07sjYL.png"
@@ -67,12 +55,18 @@
   },
   {
     "title": "Binar Car Rental",
-    "category": [
-      "Website"
-    ],
+    "category": ["Website"],
     "description": "Website rental mobil. Pada projek ini membuat keseluruhan bagian dari front-end website. Dari login/register, user dapat melihat dan memesan mobil, dan juga Admin dapat melihat data penyewaan dan menambahkan data mobil di list.",
+    "image": ["https://i.imgur.com/RpqGrWF.jpg"]
+  },
+  {
+    "title": "Thrifty Shop",
+    "category": ["Website"],
+    "description": "E-Commerce website that is intended as a platform for buying and selling used second hand clothes with interactions between sellers and buyers.",
     "image": [
-      "https://i.imgur.com/RpqGrWF.jpg"
+      "https://i.imgur.com/t2JnZPC.jpg",
+      "https://i.imgur.com/GGdtr0D.jpg",
+      "https://i.imgur.com/5Tv0zvs.jpg"
     ]
   }
 ]

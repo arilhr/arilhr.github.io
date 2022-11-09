@@ -50,6 +50,9 @@ export const About = () => {
               JavaScript Algorithms and Data Structures - FREECODECAMP | 2022
             </li>
             <li>Front End Development Libraries - FREECODECAMP | 2022</li>
+            <li>
+              Independent Study Front End Javascript - BINAR ACADEMY | 2022
+            </li>
           </ul>
         </div>
         <div className="about-section">

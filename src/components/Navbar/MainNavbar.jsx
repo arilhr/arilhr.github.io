@@ -39,7 +39,7 @@ export const MainNavbar = () => {
               <span>About</span>
             </Link>
             <Link className="nav-link" to="/portofolio">
-              <span>Portofolio</span>
+              <span>Portfolio</span>
             </Link>
           </Nav>
         </Navbar.Collapse>
